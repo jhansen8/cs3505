@@ -1,0 +1,7 @@
+g++ pdfExample.cpp -o pdfExample.pdf -L libharu/src -I libharu/include ~/Documents/CS\ 3505/A2/libharu/src/libhpdfs.a
+
+./pdfExample
+
+okular pdfExample.pdf
+
+g++ pdfExample.cpp -o pdfExample.pdf -L libharu/src -I libharu/include -l hpdfs
